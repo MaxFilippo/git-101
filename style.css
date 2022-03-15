@@ -8,11 +8,17 @@ h1 {
 }
 
 #container {
+
+	max-height: 500px;
+	max-width: 500px;
+	width: auto;
+	margin: auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 80vh;
 	flex-direction: column;
+	box-shadow: 3px 3px 3px 1px ;
 
 }
 
